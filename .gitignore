@@ -1,17 +1,64 @@
+# -------------------------------
+# Python / venv
+# -------------------------------
 .venv/
 __pycache__/
 *.pyc
-.env
-data/*.db
-data/*.faiss
-.streamlit/
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.Python
 
-# IDEs / editors
+# -------------------------------
+# IDEs / Editors
+# -------------------------------
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# JDKs / SDKs / binaries
-jdks/
-*.zip
+# -------------------------------
+# OS junk
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Data / Local runtime artifacts
+# -------------------------------
+data/
+*.db
+*.sqlite3
+*.log
+
+# -------------------------------
+# Secrets / Env
+# -------------------------------
+.env
+.env.local
+*.secret
+*.key
+
+# -------------------------------
+# Binaries / Archives
+# -------------------------------
 *.exe
 *.dll
+*.so
+*.dylib
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# -------------------------------
+# SDKs / Toolchains (don’t commit JDKs, etc.)
+# -------------------------------
+jdks/
+.jdks/
+
+# -------------------------------
+# Streamlit cache
+# -------------------------------
+.streamlit/
