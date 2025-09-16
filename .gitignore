@@ -5,3 +5,13 @@ __pycache__/
 data/*.db
 data/*.faiss
 .streamlit/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# JDKs / SDKs / binaries
+jdks/
+*.zip
+*.exe
+*.dll
